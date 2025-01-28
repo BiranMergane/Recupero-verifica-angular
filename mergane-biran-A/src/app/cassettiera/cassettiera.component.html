@@ -1,1 +1,5 @@
-<p>cassettiera works!</p>
+<ul>
+    @for(name of nomi; track nomi){
+        <div><app-casella-posta [persone]="name"></app-casella-posta></div>
+    }
+</ul>
