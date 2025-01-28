@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CasellaPostaComponent implements OnInit {
 @Input() persone: string = "";
+lettere: string[] = ["lettera 1", "lettera 2", "lettera 3"]
 constructor(){
 
 
